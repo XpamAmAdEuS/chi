@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-chi/chi/v5"
+	"github.com/xpamamadeus/chi"
 )
 
 func TestStripSlashes(t *testing.T) {

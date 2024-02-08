@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
+	"github.com/xpamamadeus/chi"
+	"github.com/xpamamadeus/chi/middleware"
 )
 
 func main() {

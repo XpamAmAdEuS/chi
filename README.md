@@ -20,7 +20,7 @@ and [docgen](https://github.com/go-chi/docgen). We hope you enjoy it too!
 
 ## Install
 
-`go get -u github.com/go-chi/chi/v5`
+`go get -u github.com/xpamamadeus/chi`
 
 
 ## Features
@@ -49,8 +49,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
+	"github.com/xpamamadeus/chi"
+	"github.com/xpamamadeus/chi/middleware"
 )
 
 func main() {
@@ -76,8 +76,8 @@ above, they will show you all the features of chi and serve as a good form of do
 import (
   //...
   "context"
-  "github.com/go-chi/chi/v5"
-  "github.com/go-chi/chi/v5/middleware"
+  "github.com/xpamamadeus/chi"
+  "github.com/xpamamadeus/chi/middleware"
 )
 
 func main() {
@@ -381,7 +381,7 @@ with `net/http` can be used with chi's mux.
 [RouteHeaders]: https://pkg.go.dev/github.com/go-chi/chi/middleware#RouteHeaders
 [SetHeader]: https://pkg.go.dev/github.com/go-chi/chi/middleware#SetHeader
 [StripSlashes]: https://pkg.go.dev/github.com/go-chi/chi/middleware#StripSlashes
-[Sunset]: https://pkg.go.dev/github.com/go-chi/chi/v5/middleware#Sunset
+[Sunset]: https://pkg.go.dev/github.com/xpamamadeus/chi/middleware#Sunset
 [Throttle]: https://pkg.go.dev/github.com/go-chi/chi/middleware#Throttle
 [ThrottleBacklog]: https://pkg.go.dev/github.com/go-chi/chi/middleware#ThrottleBacklog
 [ThrottleWithOpts]: https://pkg.go.dev/github.com/go-chi/chi/middleware#ThrottleWithOpts
@@ -496,7 +496,7 @@ Copyright (c) 2015-present [Peter Kieltyka](https://github.com/pkieltyka)
 
 Licensed under [MIT License](./LICENSE)
 
-[GoDoc]: https://pkg.go.dev/github.com/go-chi/chi/v5
+[GoDoc]: https://pkg.go.dev/github.com/xpamamadeus/chi
 [GoDoc Widget]: https://godoc.org/github.com/go-chi/chi?status.svg
 [Travis]: https://travis-ci.org/go-chi/chi
 [Travis Widget]: https://travis-ci.org/go-chi/chi.svg?branch=master

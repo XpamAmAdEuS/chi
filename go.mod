@@ -1,3 +1,3 @@
-module github.com/go-chi/chi/v5
+module github.com/xpamamadeus/chi
 
-go 1.14
+go 1.22.0
